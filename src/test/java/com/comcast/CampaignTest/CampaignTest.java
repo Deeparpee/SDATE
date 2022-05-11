@@ -7,11 +7,11 @@ public class CampaignTest {
 	public void createCampaignTest()
 	{
 		//smoke test new
-		System.out.println("Campaign created");
+		System.out.println(" new Campaign created");
 		String someParameter = System.getProperty("browser");
 		System.out.println(someParameter);
 	}
-	//regression test
+	//regression test new
 	@Test(groups="regressionTest")
 	public void editCampaignTest()
 	{
