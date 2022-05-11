@@ -7,7 +7,7 @@ public class ContactTest {
 	@Test(groups="smokeTest")
 	public void createContactTest()
 	{
-		System.out.println("contact created");
+		System.out.println(" new contact  created");
 		String para = System.getProperty("url");
 		System.out.println(para);
 	}
