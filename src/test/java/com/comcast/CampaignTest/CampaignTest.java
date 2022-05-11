@@ -6,6 +6,7 @@ public class CampaignTest {
 	@Test(groups="smokeTest")
 	public void createCampaignTest()
 	{
+		//smoke test
 		System.out.println("Campaign created");
 		String someParameter = System.getProperty("browser");
 		System.out.println(someParameter);
