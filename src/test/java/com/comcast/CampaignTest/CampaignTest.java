@@ -11,7 +11,7 @@ public class CampaignTest {
 		String someParameter = System.getProperty("browser");
 		System.out.println(someParameter);
 	}
-	//regression test new
+	//regression
 	@Test(groups="regressionTest")
 	public void editCampaignTest()
 	{
