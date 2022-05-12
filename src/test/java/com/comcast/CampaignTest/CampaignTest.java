@@ -6,22 +6,24 @@ public class CampaignTest {
 	@Test(groups="smokeTest")
 	public void createCampaignTest()
 	{
-		//smoke test new
 		System.out.println("Campaign created");
 		String someParameter = System.getProperty("browser");
 		System.out.println(someParameter);
 	}
-	//regression test
 	@Test(groups="regressionTest")
 	public void editCampaignTest()
 	{
 		System.out.println("Campaign edited");
 	}
 	@Test(groups="regressionTest")
-	public void deletCampaignTest()
+	public void deleteCampaignTest()
 	{
 		System.out.println("Campaign deleted");
 	}
-	
+	@Test
+	public void createCampaignWithProduct() 
+	{
+		System.out.println("Campaign created with product");
+	}
 
 }
