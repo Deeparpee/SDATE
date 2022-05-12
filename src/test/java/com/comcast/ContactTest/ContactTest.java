@@ -18,7 +18,6 @@ public class ContactTest {
 		String para = System.getProperty("url");
 		System.out.println(para);
 	}
-	//rt test
 	@Test(groups="regressionTest")
 	public void deletContactTest()
 	{
